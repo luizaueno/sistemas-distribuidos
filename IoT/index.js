@@ -1,6 +1,20 @@
 console.log("Teste inicial");
 
-const mqtt = require('mqtt')
+const mqtt = require('mqtt');
+
+var options = {
+    host: 'broker.hivemq.com',
+    port: 8883,
+    protocol: 'mqtts',
+    username: 'emqx',
+    password: 'public'
+};
+
+var client = mqtt.connect(options);
+
+client.on('connect', function () {
+    console.log('Connected successfully');
+});
 
 const host = 'broker.hivemq.com'
 const port = '1883'
