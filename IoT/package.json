@@ -1,0 +1,25 @@
+{
+  "name": "sistemas-distribuidos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luizaueno/sistemas-distribuidos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/luizaueno/sistemas-distribuidos/issues"
+  },
+  "homepage": "https://github.com/luizaueno/sistemas-distribuidos#readme",
+  "dependencies": {
+    "mqtt": "^5.14.1"
+  }
+}
